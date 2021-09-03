@@ -7,10 +7,28 @@
 
 import SwiftUI
 
+enum ContentState {
+    case first
+    case second(text: String)
+}
+
 struct ContentView: View {
+    
+    @State var state: ContentState = .first
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            switch state {
+            case .first:
+                FirstView { text in
+                    state = .second(text: text)
+                }
+            case .second(let text):
+                SecondView(text: text) {
+                    state = .first
+                }
+            }
+        }
     }
 }
 
