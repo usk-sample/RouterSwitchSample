@@ -13,6 +13,7 @@
 		A8AB280F26E1A65600B435D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8AB280E26E1A65600B435D2 /* Preview Assets.xcassets */; };
 		A8AB281926E1A6A400B435D2 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AB281826E1A6A400B435D2 /* FirstView.swift */; };
 		A8AB281B26E1A6AE00B435D2 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AB281A26E1A6AE00B435D2 /* SecondView.swift */; };
+		A8C6535926E58C80003FF583 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C6535826E58C80003FF583 /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A8AB281026E1A65600B435D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8AB281826E1A6A400B435D2 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		A8AB281A26E1A6AE00B435D2 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		A8C6535826E58C80003FF583 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				A8AB280926E1A65500B435D2 /* ContentView.swift */,
 				A8AB281826E1A6A400B435D2 /* FirstView.swift */,
 				A8AB281A26E1A6AE00B435D2 /* SecondView.swift */,
+				A8C6535826E58C80003FF583 /* ThirdView.swift */,
 				A8AB280B26E1A65600B435D2 /* Assets.xcassets */,
 				A8AB281026E1A65600B435D2 /* Info.plist */,
 				A8AB280D26E1A65600B435D2 /* Preview Content */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8AB280A26E1A65500B435D2 /* ContentView.swift in Sources */,
+				A8C6535926E58C80003FF583 /* ThirdView.swift in Sources */,
 				A8AB281B26E1A6AE00B435D2 /* SecondView.swift in Sources */,
 				A8AB281926E1A6A400B435D2 /* FirstView.swift in Sources */,
 				A8AB280826E1A65500B435D2 /* RouterSwitchSampleApp.swift in Sources */,

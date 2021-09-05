@@ -10,6 +10,7 @@ import SwiftUI
 enum ContentState {
     case first
     case second(text: String)
+    case third
 }
 
 struct ContentView: View {
@@ -25,8 +26,11 @@ struct ContentView: View {
                 }
             case .second(let text):
                 SecondView(text: text) {
-                    state = .first
+                    state = .third
                 }
+            case .third:
+                ThirdView(state: $state)
+
             }
         }
     }

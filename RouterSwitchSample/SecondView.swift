@@ -17,7 +17,7 @@ struct SecondView: View {
             Text("Second")
                 .font(.title)
             Text(text)
-            Button("Previous") {
+            Button("Next") {
                 onClick()
             }
         }
